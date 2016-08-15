@@ -20,9 +20,9 @@ public class test {
 		String str = scan1.nextLine();
 		
 		if(checkPalindrome(str))
-		   System.out.println("The string is Palindrome");
+		   System.out.println("The string is Palindrome!");
 		else
-			System.out.println("The string is not Palindrome");
+			System.out.println("The string is not Palindrome!");
 	}
 	
 	public static boolean checkPalindrome(String text)
