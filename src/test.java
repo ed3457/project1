@@ -28,8 +28,8 @@ public class test {
 	public static boolean checkPalindrome(String text)
 	{
 		
-		
-		for (int i=0;i< text.length()/2;i++)
+		int i=0;
+		for (i=0;i< text.length()/2;i++)
 		{
 			if (text.charAt(i)!= text.charAt(text.length()-i-1))
 			{
